@@ -39,18 +39,6 @@ Open **`chicago-real-estate-prediction.ipynb`** and execute the cells to preproc
 
 ---
 
-## Project Structure
-
-```bash
-Chicago-Real-Estate-Prediction/
-│── chicago-real-estate-prediction.ipynb   # Jupyter Notebook containing analysis
-│── data/                                  # (Optional) Dataset directory
-│── README.md                              # Project documentation
-│── requirements.txt                       # Required dependencies
-```
-
----
-
 ## Results
 
 ### Model Performance (R² Score)
