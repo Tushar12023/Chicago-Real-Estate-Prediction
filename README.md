@@ -1,6 +1,3 @@
-Here is a **basic README** in **Markdown format**:
-
-```markdown
 # Chicago Real Estate Prediction
 
 ## Overview
@@ -76,6 +73,4 @@ The **Random Forest Regressor** provided the best accuracy for predicting real e
 ## License
 
 This project is open-source under the **MIT License**.
-```
 
-This README is **simple, clean, and well-structured**. Let me know if you need any modifications! 🚀
