@@ -1,56 +1,81 @@
-Chicago Real Estate Prediction
-Overview
-This project aims to predict real estate prices in Chicago using machine learning models. It involves data preprocessing, exploratory data analysis (EDA), and training predictive models such as Linear Regression, Random Forest Regressor, and XGBoost Regressor. The dataset includes various features related to property characteristics, including the number of bedrooms, bathrooms, square footage, and past sale prices.
+Here is a **basic README** in **Markdown format**:
 
-Features
-Data Preprocessing: Handling missing values, encoding categorical variables, and normalizing numerical data.
-Exploratory Data Analysis (EDA): Distribution analysis, missing data handling, and correlation heatmaps.
-Model Training: Comparing different models and evaluating performance based on R² scores.
-Feature Importance Analysis: Identifying key factors influencing real estate prices.
-Installation
-To run this project locally, follow these steps:
+```markdown
+# Chicago Real Estate Prediction
 
-Prerequisites
-Ensure you have Python 3.7+ installed along with the following dependencies:
+## Overview
 
-bash
-Copy
-Edit
-pip install numpy pandas scikit-learn xgboost matplotlib seaborn jupyterlab
-Download and Run
-Clone the repository:
+This project predicts **real estate prices in Chicago** using machine learning models. It involves **data preprocessing, exploratory data analysis (EDA), and model training** using the following models:
 
-bash
-Copy
-Edit
+- **Linear Regression**
+- **Random Forest Regressor**
+- **XGBoost Regressor**
+
+The dataset includes key property attributes such as the number of bedrooms, bathrooms, square footage, and past sale prices.
+
+---
+
+## Installation
+
+### Prerequisites
+
+Ensure you have **Python 3.7+** installed. Install the required dependencies using:
+
+```bash
+pip install -r requirements.txt
+```
+
+### Clone the Repository
+
+```bash
 git clone https://github.com/Tushar12023/Chicago-Real-Estate-Prediction.git
 cd Chicago-Real-Estate-Prediction
-Open the Jupyter Notebook:
+```
 
-bash
-Copy
-Edit
+### Run Jupyter Notebook
+
+```bash
 jupyter lab
-Run the notebook:
+```
 
-Open chicago-real-estate-prediction.ipynb
-Execute the cells in order to preprocess the data and train the models.
-Project Structure
-php
-Copy
-Edit
+Open **`chicago-real-estate-prediction.ipynb`** and execute the cells to preprocess the data and train the models.
+
+---
+
+## Project Structure
+
+```bash
 Chicago-Real-Estate-Prediction/
-│── chicago-real-estate-prediction.ipynb   # Jupyter Notebook containing the full analysis
-│── data/                                  # (Optional) Directory for dataset
+│── chicago-real-estate-prediction.ipynb   # Jupyter Notebook containing analysis
+│── data/                                  # (Optional) Dataset directory
 │── README.md                              # Project documentation
-│── requirements.txt                        # Required dependencies
-Results
-Linear Regression: Baseline model with R² Score ~ 0.72
-Random Forest Regressor: Best performing model with R² Score ~ 0.79
-XGBoost Regressor: Moderate performance with R² Score ~ 0.54
-The Random Forest Regressor was found to be the most effective model in predicting Chicago real estate prices.
+│── requirements.txt                       # Required dependencies
+```
 
-Future Improvements
-Enhance feature engineering to capture additional property attributes.
-Tune hyperparameters for better model performance.
-Explore additional regression models.
+---
+
+## Results
+
+### Model Performance (R² Score)
+- **Linear Regression:** 0.72
+- **Random Forest Regressor:** 0.79 (Best Performing)
+- **XGBoost Regressor:** 0.54
+
+The **Random Forest Regressor** provided the best accuracy for predicting real estate prices.
+
+---
+
+## Future Improvements
+
+- **Feature Engineering** – Add more property attributes.
+- **Hyperparameter Tuning** – Improve model accuracy.
+- **Additional Models** – Explore deep learning techniques.
+
+---
+
+## License
+
+This project is open-source under the **MIT License**.
+```
+
+This README is **simple, clean, and well-structured**. Let me know if you need any modifications! 🚀
